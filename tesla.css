@@ -1,0 +1,332 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gotham SSm', sans-serif;
+    font-size:x-small;
+    font-weight: lighter;
+    overflow-x: hidden;
+
+}
+.header{
+    background-image: linear-gradient(hsla(300,50%,50%, 0),80%,black),url('images/backround1.jpg');
+    display: grid;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height :100vh;
+    
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height:24;
+    margin-top: -24px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+.nav-elements{
+    margin-left: 267px;
+    margin-top: 4px;
+}
+.element{
+    padding:8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+    border:none;
+    font-size: 14;
+    color:rgba(23, 26, 32);
+   
+}
+
+.element:hover{
+   background-color: rgba(151, 151, 151, 0.13);
+}
+
+.nav-elementstwo{
+    margin-left: 880px;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.elementtwo{
+    
+    padding:8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+    border:none;
+    font-size: 14;
+    color:rgba(23, 26, 32);
+}
+
+.elementtwo:hover{
+    background-color: rgba(151, 151, 151, 0.13);
+       
+}
+h1{
+    font-family: 'Gotham SSm', sans-serif;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 100;
+    color:rgba(23, 26, 32);
+    margin-left: 475px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.numerics{
+    color:rgb(255, 255, 255);
+ 
+    font-size: 20px;
+    font-weight: bold;
+}
+.mph{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 125px;
+}
+.speed{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 125px;
+}
+.range{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 125px;
+}
+.zero{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 425px;
+    margin-left: 270px;
+}
+.top{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 425px;
+    margin-left: 415px;
+}
+.mi{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 425px;
+    margin-left: 575px;
+}
+.button-reserve{
+    position: absolute;
+    color: white;
+    background: transparent;
+    margin-top: -200px;
+    margin-left: 690px;
+    padding:6px 40px;
+    border-color: white;
+    border-width: 2px;
+}
+.containerone{
+    display:grid; 
+    background-color: black;
+    width: 100%;
+    height:250vh;
+    
+}
+.backvid{
+    margin-top: 180px;
+    margin-left: 105px;
+}
+h2{
+    color:white;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 105px;
+    font-size: 24;
+}
+.paraone{
+    color:white;
+    position: absolute;
+    margin-top: 990px;
+    margin-left: 105px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.containertwo{
+    display:grid; 
+    background-color: black;
+    width: 100%;
+    display:grid; 
+    color: white;
+    height:250vh;
+    
+    
+}
+.fourth-img{
+    position: absolute;
+    width: 851px;
+    height:478px;
+    margin-left: 110px;
+    margin-top: -100px;
+}
+.head-int{
+    position: absolute;
+    margin-top:400px ;
+    margin-left: 110px;
+    color: white;
+    font-size: 24px;
+}   
+.fourth-para{
+    margin-top: 435px;
+    margin-left: 110px;
+    font-size: 14px;
+}
+.roof{
+    margin-top: 50px;
+}
+.glass{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 1100px;
+    color: white;
+    font-size: 24px;
+}
+.lightweight{
+    margin-left: 110px;
+    margin-top: -80px;
+    font-size: 14px;
+}
+.footer{
+    display:grid; 
+    background-color: black;
+    width: 100%;
+    display:grid; 
+    color: white;
+    height:160vh;
+    color:white;
+}
+.head{
+    position: absolute;
+    font-size: 28px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.spec{
+    position: absolute;
+    font-size: 28px;
+    margin-left: 110px;
+    margin-top: 200px;
+}
+.drive{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 300px;
+}
+.footer li{
+    list-style: none;
+    font-size: 14px;
+    padding: 30px;
+   
+}
+.footer ul{
+   
+    position: absolute;
+}
+.list-one{
+    margin-top: 350px;
+    margin-left: 40px;
+
+}
+.list-two{
+   
+    margin-top: 350px;
+    margin-left: 300px;
+    
+}
+.list-three{
+    margin-top: 350px;
+    margin-left: 560px
+    
+}
+.list-four{
+    margin-top: 350px;
+    margin-left: 820px
+}
+.footer-last{
+    display:grid; 
+    background-color: black;
+    width: 100%;
+    display:grid; 
+    color: white;
+    height:100vh;
+    color:white;
+}
+.foot-road{
+    color: white;
+    font-size: 24px;
+}
+.button-news{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 200px;
+    padding: 4px 24px;
+    color: rgba(255, 255, 255);
+    border-style: solid;
+    font-size: 14px;
+    border-width: 2px;
+    background-color:rgb(167, 158, 158,0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.button-now{
+    position: absolute;
+    margin-left: 467px;
+    margin-top: 150px;
+    font-size: 14px;
+    padding: 4px 24px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    cursor: pointer;
+}
+.button-now:hover{
+    background-color: white;
+    color: black;
+}
+.button-news{
+   
+    opacity: 1;
+
+}
+.para-last{
+    font-size: 12px;
+    color: white;
+    text-align: center ;
+    margin-top: 250px;
+    line-height: 2;
+}
+.footer-last ul{
+    list-style: none;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 250px;
+    
+}
+.footer-last li{
+    padding: 4px 10px;
+    cursor: pointer;
+    
+}
+.footer-last li:hover{
+    text-decoration: underline;
+}
